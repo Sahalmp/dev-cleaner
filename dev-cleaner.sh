@@ -400,14 +400,7 @@ cleanup_cocoapods() {
     fi
 }
 
-cleanup_ide_caches() {
-    print_item "✓" "${GREEN}" "Cleaning general JetBrains IDE caches..."
-    rm -rf ~/Library/Caches/JetBrains/
-    print_item "✓" "${GREEN}" "Cleaning VSCode cache..."
-    rm -rf ~/Library/Application\ Support/Code/Cache/
-    rm -rf ~/Library/Application\ Support/Code/CachedData/
-    rm -rf ~/Library/Application\ Support/Code/User/workspaceStorage/
-}
+
 cleanup_ide_caches() {
     print_item "✓" "${GREEN}" "Cleaning general JetBrains IDE caches..."
     rm -rf ~/Library/Caches/JetBrains/
