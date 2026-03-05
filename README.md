@@ -1,11 +1,11 @@
 # 🧹 Dev Cleaner Utility
 
 <p align="center">
-    <a href="YOUR_GITHUB_REPO_LINK">
+    <a href="https://github.com/Sahalmp/dev-cleaner">
         <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status">
     </a>
-    <a href="YOUR_GITHUB_REPO_LINK/stargazers">
-        <img src="https://img.shields.io/github/stars/jemishavasoya/dev-cleaner" alt="GitHub stars">
+    <a href="https://github.com/Sahalmp/dev-cleaner/stargazers">
+        <img src="https://img.shields.io/github/stars/Sahalmp/dev-cleaner" alt="GitHub stars">
     </a>
 </p>
 
@@ -52,7 +52,7 @@ This tool is for **educational purposes**, focusing on safely removing developme
 To download, grant permission, and run the utility in one line:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jemishavasoya/dev-cleaner/main/dev-cleaner.sh -o dev-cleanup.sh && chmod +x dev-cleanup.sh && ./dev-cleanup.sh
+curl -fsSL https://raw.githubusercontent.com/Sahalmp/dev-cleaner/main/dev-cleaner.sh -o dev-cleanup.sh && chmod +x dev-cleanup.sh && ./dev-cleanup.sh
 ```
 
 #### 🍺 Install via Homebrew
@@ -63,7 +63,7 @@ For a permanent installation using Homebrew:
 
 ```bash
 # Tap the repository
-brew tap jemishavasoya/dev-cleaner
+brew tap Sahalmp/dev-cleaner
 
 # Install dev-cleaner
 brew install dev-cleaner
@@ -86,7 +86,7 @@ To uninstall:
 
 ```bash
 brew uninstall dev-cleaner
-brew untap jemishavasoya/dev-cleaner
+brew untap Sahalmp/dev-cleaner
 ```
 
 #### 🪟 Windows Installation
@@ -96,7 +96,7 @@ brew untap jemishavasoya/dev-cleaner
 ##### One-Line Download & Run
 
 ```powershell
-irm https://raw.githubusercontent.com/jemishavasoya/dev-cleaner/main/dev-cleaner.ps1 -OutFile dev-cleaner.ps1; .\dev-cleaner.ps1
+irm https://raw.githubusercontent.com/Sahalmp/dev-cleaner/main/dev-cleaner.ps1 -OutFile dev-cleaner.ps1; .\dev-cleaner.ps1
 ```
 
 > **Note:** You may need to set the execution policy first:
@@ -164,14 +164,15 @@ The Flutter cleanup option (Option 4) performs a comprehensive recursive cleanup
 **💡 Pro Tip:** If you have active projects you work on daily, consider running the cleanup from a specific subdirectory (e.g., `~/old_projects` or `~/research`) rather than your entire development folder. This avoids unnecessary rebuilds of dependencies for active projects.
 
 **Expected Space Savings:** Users have reported freeing up 50-100GB+ of disk space after running Flutter cleanup on multiple projects.
+
 ### You can also buy me a cup of coffee &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/jempatellbv" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Tea" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## 🤩 Contribution 
 
 We welcome you to submit Issues and Pull Requests!
 
-<a href="https://github.com/jemishavasoya/dev-cleaner/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jemishavasoya/dev-cleaner&preview=false&max=&columns=" />
+<a href="https://github.com/Sahalmp/dev-cleaner/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Sahalmp/dev-cleaner&preview=false&max=&columns=" />
 </a>
 <br /><br />
 
