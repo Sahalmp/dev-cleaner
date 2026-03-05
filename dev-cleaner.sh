@@ -408,6 +408,32 @@ cleanup_ide_caches() {
     rm -rf ~/Library/Application\ Support/Code/CachedData/
     rm -rf ~/Library/Application\ Support/Code/User/workspaceStorage/
 }
+cleanup_ide_caches() {
+    print_item "✓" "${GREEN}" "Cleaning general JetBrains IDE caches..."
+    rm -rf ~/Library/Caches/JetBrains/
+
+    print_item "✓" "${GREEN}" "Cleaning VSCode cache..."
+    rm -rf ~/Library/Application\ Support/Code/Cache/
+    rm -rf ~/Library/Application\ Support/Code/CachedData/
+    rm -rf ~/Library/Application\ Support/Code/User/workspaceStorage/
+
+    print_item "✓" "${GREEN}" "Cleaning Cursor cache..."
+    rm -rf ~/Library/Application\ Support/Cursor/Cache/
+    rm -rf ~/Library/Application\ Support/Cursor/CachedData/
+    rm -rf ~/Library/Application\ Support/Cursor/User/workspaceStorage/
+
+    print_item "✓" "${GREEN}" "Cleaning Trae cache..."
+    rm -rf ~/Library/Application\ Support/Trae/Cache/
+    rm -rf ~/Library/Application\ Support/Trae/CachedData/
+    rm -rf ~/Library/Application\ Support/Trae/User/workspaceStorage/
+
+    print_item "✓" "${GREEN}" "Cleaning Claude & Codex caches..."
+    rm -rf ~/Library/Application\ Support/Claude/Cache/
+    rm -rf ~/Library/Application\ Support/Codex/Cache/
+
+    print_item "✓" "${GREEN}" "Cleaning Antigravity cache..."
+    rm -rf ~/Library/Application\ Support/Antigravity/Cache/
+}
 
 cleanup_system_junk() {
     print_item "✓" "${GREEN}" "Emptying the Trash..."
